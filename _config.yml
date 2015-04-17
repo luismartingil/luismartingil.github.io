@@ -1,0 +1,45 @@
+# General Jekyll Config
+pygments: true
+url: http://www.luismartingil.com
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore]
+
+assets:
+  sources:
+    - _assets
+    - _assets/js
+    - _assets/css
+    - _assets/font
+
+# Theme customization - please change from the defaults!
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
+  #highlight_color: '#C90D0D'
+
+  # Profile links on the left sidebar, leave blank to ignore
+  social:
+    github: luismartingil
+    twitter: luismartingil2
+    email: martingil.luis@gmail.com
+
+  # "Hi, I'm Luis Martin Gil"
+  name: Luis Martin Gil
+  email: martingil.luis@gmail.com
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: UA-45763537-1
+
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: false
+
+# projects:
+
+starred:
+   - name: scripts
+     url: https://github.com/luismartingil/scripts
+     blurb: Random scripts/snippets
+     year: 20**
+     used: python, c, bash, applescript ...
+     height: 1
+     width: 2

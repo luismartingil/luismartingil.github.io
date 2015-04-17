@@ -1,0 +1,25 @@
+<div id="soocial">
+
+  <a title="RSS feed" id="rss" href="/atom.xml" onClick="_gaq.push(['_trackEvent', 'social', 'click', rss']);">
+    <i class="icon-rss-sign"></i>
+  </a>
+
+  {% if site.theme.social.github %}
+  <a target="_blank" title="{{ site.theme.social.github }} on Github" href="http://github.com/{{ site.theme.social.github }}" onClick="_gaq.push(['_trackEvent', 'social', 'click', github']);">
+    <i class="icon-github-sign"></i>
+  </a>
+  {% endif %}
+
+  {% if site.theme.social.twitter %}
+  <a target="_blank" title="{{ site.theme.social.twitter }} on Twitter" href="http://twitter.com/{{ site.theme.social.twitter }}" onClick="_gaq.push(['_trackEvent', 'social', 'click', twitter']);">
+    <i class="icon-twitter-sign"></i>
+  </a>
+  {% endif %}
+
+  {% if site.theme.social.email %}
+  <a target="_blank" title="{{ site.theme.social.email }} email" href="mailto:{{ site.theme.social.email }}" onClick="_gaq.push(['_trackEvent', 'social', 'click', email']);">
+    <i class="icon-envelope"></i>
+  </a>
+  {% endif %}
+
+</div>
